@@ -1,0 +1,94 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background: url("../images/body-bg.jpg") no-repeat fixed center center / 100% 100%;
+  font-family: georgia;
+  text-align: justify;
+padding-top: 70px;
+  
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #2b1104;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 13px;
+}
+.navbar-brand h1 {
+  font-family: georgia;
+  color: #fff;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #d4d4d4;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* MENU */
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#nav-list a {
+    color: #fff;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    color:#2b1104;
+    text-align: center;
+    background-color: #f7f6d7;
+}
+.navbar-default .navbar-toggle {
+    border-color: #f7f6d7;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #f7f6d7;
+    bottom: 1px solid #2b1104;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #f7f6d7;
+}
+
+.navbar-header:hover button.navbar-toggle:hover, .navbar-header:hover .icon-bar:hover {
+    background-color: #98470f;
+    border: 1px solid #fff;
+}
+#menu-title{
+ text-align: center;
+ border-bottom: 3px solid #2b1104;
+ width: 50%;
+ margin: 0 auto;
+ margin-bottom: 10px;
+}
+.menu-content h3
+{
+  text-align: center;
+  margin-top: 4px;
+  color: #000;
+}
+.menu-content{
+  border: 1px solid #2b1104;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/** MEDIA SCREEN SMALL DEVICE **/
+
+@media (max-width :767px)
+{
+.navbar-brand h1{
+  font-size: 1.3em;
+}
+
+}
